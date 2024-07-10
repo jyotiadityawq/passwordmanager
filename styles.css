@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #65d7f6 0%, #85dbfd 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    position: relative;
+}
+
+#alert {
+    display: none;
+    font-size: 12px;
+    color: green;
+    margin-left: 10px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background: #65f6de;
+    color: white  ;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 5px 0;
+}
+
+input {
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    border: 4px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn, .btnsm {
+    background: #85e9fd;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover, .btnsm:hover {
+    background: #358290;
+}
+
+img {
+    cursor: pointer;
+    margin-left: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+

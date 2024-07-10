@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Manager</h1>
+        <p>Manage your passwords easily and securely.</p>
+        <h2>Your Passwords <span id="alert">(Copied!)</span></h2> 
+        <table>
+            <tr>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Delete</th>
+            </tr> 
+        </table>
+
+        <h2>Add a Password</h2>
+        <form id="passwordForm">
+            <label for="website">Website:</label>
+            <input type="text" id="website" name="website" required>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button class="btn" type="submit">Submit</button>
+        </form>
+        <a href="https://www.flaticon.com/free-icons/ui" title="ui icons" id="ui">Ui icons created by Grand Iconic - Flaticon</a>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
